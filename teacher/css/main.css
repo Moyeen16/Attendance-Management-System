@@ -1,0 +1,63 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    color: black;/*#dce3ed;*/
+    background-color: white;/*#3e4651;*/
+    font-family: Arial;
+    margin: 0;
+}
+
+table input{
+    background-color: white;/*#627287;*/
+}
+table td button{
+    background-color: #627287;
+}
+
+.navbar {
+    font-size: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color:  #4caf50; /*#dce3ed;*/
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+    border-bottom: 6px solid #4caf50;
+}
+
+
+.row {  
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex: 30%;
+    background-color: white; /*#3e4651;*/
+    padding: 50px;
+}
+select{
+
+    font-size: 15px;
+}
+option{
+    font-size: 15px;
+}
+a:hover{
+    color: black;
+}
+img{
+
+    height: 200px;
+    width: 300px;
+}
